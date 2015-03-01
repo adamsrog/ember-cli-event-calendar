@@ -44,6 +44,7 @@ export default Ember.Component.extend({
 	},
 
 	didInsertElement: function() {
+		Ember.Logger.info(this.get('defaults'));
 		Ember.$("#events-calendar").eventCalendar(this.get('defaults'));
 	}
 

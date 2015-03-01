@@ -1,4 +1,2 @@
-import Ember from 'ember';
-
-export default Ember.Component.extend({
-});
+import EventCalendarComponent from 'ember-cli-event-calendar/components/event-calendar';
+export default EventCalendarComponent;

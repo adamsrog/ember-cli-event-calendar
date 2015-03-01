@@ -18,4 +18,16 @@ var app = new EmberAddon();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
+  exports: {
+    moment: ['default']
+  }
+});
+
+app.import(app.bowerDirectory + '/jquery-event-calendar/css/eventCalendar.css');
+app.import({
+  development: app.bowerDirectory + '/jquery-event-calendar/js/jquery.eventCalendar.js',
+  production: app.bowerDirectory + '/jquery-event-calendar/js/jquery.eventCalendar.min.js'
+});
+
 module.exports = app.toTree();
