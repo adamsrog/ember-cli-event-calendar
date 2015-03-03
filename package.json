@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-event-calendar",
-  "version": "0.0.7",
-  "description": "ember-cli addon for using jQueryEventCalendar",
+  "version": "0.0.8",
+  "description": "ember-cli addon for using jQueryEventCalendar [WIP]",
   "directories": {
     "doc": "doc",
     "test": "tests"
