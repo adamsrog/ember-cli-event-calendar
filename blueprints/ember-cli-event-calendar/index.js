@@ -4,6 +4,6 @@ module.exports = {
 	},
 
 	afterInstall: function() {
-		return this.addBowerPackageToProject("adamsrog/jQueryEventCalendar", "jquery-event-calendar")
+		return this.addBowerPackageToProject("adamsrog/jQueryEventCalendar");
 	}
 };
