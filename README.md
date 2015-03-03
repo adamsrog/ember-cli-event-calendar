@@ -44,6 +44,20 @@ The following parameters can be specified in the `{{event-calendar}}` helper.  T
 * moveSpeed: 500
 * moveOpacity: 0.15
 
+## Using jsonData parameter
+You can pass in an array of objects for the `jsonData` parameter to populate the calendar.  This is what it should look like:
+```
+[
+	{
+		"date":"2015-3-26 14:11:00",
+		"title":"test event",
+		"url":"https://www.google.com/calendar/event?eid=id-from-google-api",
+		"description":"description of event"
+	},
+	{...},
+]
+```
+
 ## Installation
 
 * `git clone` this repository
