@@ -16,8 +16,8 @@ module.exports = {
 			}
 		});
 
-		app.import(path.join(app.bowerDirectory, '/jquery-event-calendar/css/eventCalendar.css'));
-		app.import(path.join(app.bowerDirectory, '/jquery-event-calendar/css/eventCalendar_theme_flat.css'));
-		app.import(path.join(app.bowerDirectory, '/jquery-event-calendar/js/jquery.eventCalendar.js'));
+		app.import(path.join(app.bowerDirectory, '/jQueryEventCalendar/css/eventCalendar.css'));
+		app.import(path.join(app.bowerDirectory, '/jQueryEventCalendar/css/eventCalendar_theme_flat.css'));
+		app.import(path.join(app.bowerDirectory, '/jQueryEventCalendar/js/jquery.eventCalendar.js'));
 	}
 };
