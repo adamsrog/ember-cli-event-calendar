@@ -2,6 +2,8 @@
 
 This is an ember-addon for implementing my fork of [jQueryEventCalendar](https://github.com/adamsrog/jQueryEventCalendar) plugin.  This is a work in progress!
 
+See [http://www.vissit.com/projects/eventCalendar/](http://www.vissit.com/projects/eventCalendar/) for more examples and information.
+
 ## Installation as an addon
 * `ember install:addon ember-cli-event-calendar`
 
