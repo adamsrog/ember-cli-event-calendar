@@ -74,6 +74,9 @@ export default Ember.Component.extend({
 			moveSpeed: this.get('moveSpeed'),
 			moveOpacity: this.get('moveOpacity'),			
 		};
+		if (defaults.jsonData !== '') {
+			defaults.eventsJson = '';
+		}
 		return defaults;
 	}),
 
