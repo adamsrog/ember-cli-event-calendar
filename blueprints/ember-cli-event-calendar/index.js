@@ -1,9 +1,13 @@
 module.exports = {
-	normalizeEntityName: function(entityName)  {
-		return entityName;
+	normalizeEntityName: function()  {
+    // this prevents an error when the entityName is not specified
 	},
 
 	afterInstall: function() {
-		return this.addBowerPackageToProject("adamsrog/jQueryEventCalendar", "0.0.1");
+		return this.addBowerPackagesToProject([
+			{ name: 'moment', target: '>=2.8.3' },
+			{ name: 'jasonmit/ember-cli-moment-shim', target: '0.0.3' },
+			{ name: 'adamsrog/jQueryEventCalendar', target: '0.0.1' }
+		]);
 	}
 };
