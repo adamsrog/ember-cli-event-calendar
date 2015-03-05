@@ -2,7 +2,9 @@
 
 This is an ember-addon for implementing my fork of [jQueryEventCalendar](https://github.com/adamsrog/jQueryEventCalendar) plugin.  This is a work in progress!
 
-See [rogerada.ms/ember-cli-event-calendar](http://rogerada.ms/ember-cli-event-calendar/) for a live example.  Source for the live demo can be found [here](https://github.com/adamsrog/event-calendar-example).
+See [rogerada.ms/ember-cli-event-calendar](http://rogerada.ms/ember-cli-event-calendar/) for a live demo.
+
+Source for the live demo can be found [here](https://github.com/adamsrog/event-calendar-example).
 
 ## Installation as an addon
 * `ember install:addon ember-cli-event-calendar`
