@@ -24,10 +24,10 @@ app.import(app.bowerDirectory + '/ember-cli-moment-shim/moment-shim.js', {
   }
 });
 
-app.import(app.bowerDirectory + '/jQueryEventCalendar/css/eventCalendar.css');
+app.import(app.bowerDirectory + '/jquery-eventcalendar/css/eventCalendar.css');
 app.import({
-  development: app.bowerDirectory + '/jQueryEventCalendar/js/jquery.eventCalendar.js',
-  production: app.bowerDirectory + '/jQueryEventCalendar/js/jquery.eventCalendar.min.js'
+  development: app.bowerDirectory + '/jquery-eventcalendar/js/jquery.eventCalendar.js',
+  production: app.bowerDirectory + '/jquery-eventcalendar/js/jquery.eventCalendar.min.js'
 });
 
 module.exports = app.toTree();
